@@ -15,7 +15,7 @@ process GENERIC {
     val x
 
     output:
-    path 'myfile_${x}.txt'
+    path "myfile_${x}.txt"
 
     script:
     """
